@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import "../assets/css/style.css";
-import "../assets/css/menu.css";
-import "../assets/css/vendors.css";
-import "../assets/css/icon_fonts/css/all_icons_min.css";
+
 import Logo from "../assets/img/logo.png";
 class Footer extends Component {
   render() {
@@ -14,7 +11,7 @@ class Footer extends Component {
               <p>
                 <a href="index.html" title="Findoctor">
                   <img
-                    src={Logo}
+                    src=""
                     data-retina="true"
                     alt=""
                     width="163"
@@ -48,16 +45,16 @@ class Footer extends Component {
               <h5>Useful links</h5>
               <ul className="links">
                 <li>
-                  <a href="#0">Doctors</a>
+                  <a href="#0">Mechanics</a>
                 </li>
                 <li>
-                  <a href="#0">Clinics</a>
+                  <a href="#0">Workshop</a>
                 </li>
                 <li>
                   <a href="#0">Specialization</a>
                 </li>
                 <li>
-                  <a href="#0">Join as a Doctor</a>
+                  <a href="#0">Join as a Mechanic</a>
                 </li>
                 <li>
                   <a href="#0">Download App</a>
@@ -73,8 +70,8 @@ class Footer extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:info@findoctor.com">
-                    <i className="icon_mail_alt" /> help@findoctor.com
+                  <a href="mailto:info@servisbos.com">
+                    <i className="icon_mail_alt" /> help@servisbos.com
                   </a>
                 </li>
               </ul>
@@ -118,7 +115,7 @@ class Footer extends Component {
               </ul>
             </div>
             <div className="col-md-4">
-              <div id="copy">© 2017 Findoctor</div>
+              <div id="copy">© 2019 servisbos.com</div>
             </div>
           </div>
         </div>

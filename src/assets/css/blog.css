@@ -60,6 +60,7 @@ article.blog figure .preview span {
   font-size: 0.75rem;
   padding: 5px 10px;
 }
+
 article.blog figure:hover .preview {
   opacity: 1;
   visibility: visible;
@@ -139,7 +140,7 @@ article.blog .post_info ul {
 article.blog .post_info ul li {
   display: inline-block;
   position: relative;
-  padding: 12px 0  0 55px;
+  padding: 12px 0 0 55px;
   font-weight: 500;
   font-size: 0.75rem;
   color: #999;
